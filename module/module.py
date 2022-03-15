@@ -197,7 +197,7 @@ class LazadaCrawler(Crawler):
                 product_info = {
                     "platform": "lazada",
                     "shop_id": shop_id,
-                    "item_id": item_id,
+                    "item_id": int(item_id),
                     "product_names": product_name,
                     "price_before_discounts": price_bf_discount,
                     "price_of_products": price,
