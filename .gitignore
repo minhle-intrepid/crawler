@@ -1,4 +1,4 @@
-*.json
+#*.json
 *.pyc
 .idea
 /home/nhatminh/PycharmProjects/crawler/venv
