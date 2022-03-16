@@ -25,5 +25,5 @@ if __name__ == '__main__':
         print("Done: ", index+1, "/", len(shop_urls))
         if index+1 != len(shop_urls):
             time.sleep(120)
-    with open('data/data_shopee.json', 'w', encoding='utf-8') as f:
+    with open('data/data_shopee_2.json', 'w', encoding='utf-8') as f:
         json.dump(meta_data, f, ensure_ascii=False, indent=4)
